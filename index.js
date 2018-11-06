@@ -22,5 +22,6 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(a, b) {
-  a
+  [a, ..."broom"]
+  return a
 }
