@@ -32,6 +32,6 @@ return kittenNew;
   }
 
 function removeLastKitten () {
-  var kittenNew = kittens.splice(2);
+  var kittenNew = kittens.splice(-1);
   return kittenNew;
   }
