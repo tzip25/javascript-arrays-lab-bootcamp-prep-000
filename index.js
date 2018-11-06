@@ -31,6 +31,7 @@ var kittenNew = ['Arnold', ...kittens];
 return kittenNew;
   }
   
-  function removeLastKitten ()
+  function removeLastKitten () {
   var kittenNew = kittens.splice(2);
   return kittenNew;
+  }
