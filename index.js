@@ -22,11 +22,15 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten() {
-  var kittensNew = kittens.concat('Broom')
-  return kittensNew
+  var kittensNew = kittens.concat('Broom');
+  return kittensNew;
 }
 
 function prependKitten() {
-var kittenNew = ['Arnold', ...kittens]
-return kittenNew
+var kittenNew = ['Arnold', ...kittens];
+return kittenNew;
   }
+  
+  function removeLastKitten ()
+  var kittenNew = kittens.splice(2);
+  return kittenNew;
