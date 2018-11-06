@@ -27,6 +27,7 @@ function appendKitten() {
 }
 
 function prependKitten() {
+  []
   var kittenNew = kittens.splice(0, 0, 'Arnold')
 return kittenNew
   
