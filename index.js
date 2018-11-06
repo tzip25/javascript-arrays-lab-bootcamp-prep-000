@@ -27,8 +27,7 @@ function appendKitten() {
 }
 
 function prependKitten() {
-  ['Arnold', ...kittens]
-  var kittenNew = kittens.splice(0, 0, 'Arnold')
+var kittenNew = ['Arnold', ...kittens]
 return kittenNew
   
 }
